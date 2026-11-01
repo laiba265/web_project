@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F7F1E8;
+    color: #2F3E4E;
+}
+
+.navbar {
+    background-color: #DCCDBE;
+    padding: 20px 60px;
+    border-bottom: 4px solid #6F8FAF;
+}
+
+.logo h1 {
+    color: #4F6D8A;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.nav-links {
+    margin-top: 15px;
+}
+
+.nav-links a {
+    color: #2F3E4E;
+    text-decoration: none;
+    margin-right: 18px;
+}
+
+.nav-links a:hover {
+    color: #6F8FAF;
+}
+
+.register-section {
+    width: 70%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: white;
+    border: 3px solid #DCCDBE;
+    border-radius: 10px;
+}
+
+.register-section h2 {
+    text-align: center;
+    color: #4F6D8A;
+    margin-bottom: 15px;
+}
+
+.register-section > p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="url"],
+input[type="number"],
+input[type="time"],
+textarea,
+select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #DCCDBE;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+input[type="file"],
+input[type="color"],
+input[type="range"] {
+    margin-top: 8px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+input[type="url"]:focus,
+input[type="number"]:focus,
+input[type="time"]:focus,
+textarea:focus,
+select:focus {
+    border-color: #6F8FAF;
+    outline: none;
+}
+
+input:valid,
+textarea:valid,
+select:valid {
+    border-color: #6F8FAF;
+}
+
+input:invalid,
+textarea:invalid {
+    border-color: #DCCDBE;
+}
+
+button {
+    background-color: #4F6D8A;
+    color: white;
+    border: none;
+    padding: 13px 25px;
+    margin-top: 25px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #6F8FAF;
+}
+
+.form-title {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #4F6D8A;
+}
+
+.form-title::before {
+    content: "✦ ";
+}
+
+.footer {
+    background-color: #6F8FAF;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}

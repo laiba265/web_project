@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veilora | Register</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                <h1>VEILORA</h1>
+            </div>
+
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="media.html">Media & Info</a>
+                <a href="register.html">Register</a>
+                <a href="services.html">Collections</a>
+                <a href="portfolio.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="register-section">
+
+            <h2>Create Your Veilora Account</h2>
+
+            <p>
+                Join Veilora and stay connected with elegant modest fashion.
+            </p>
+
+            <form>
+
+                <label for="fullname">Full Name:</label>
+                <input
+                    type="text"
+                    id="fullname"
+                    name="fullname"
+                    placeholder="Enter your full name"
+                    required
+                    minlength="3"
+                    maxlength="50"
+                >
+
+                <label for="username">Username:</label>
+                <input
+                    type="text"
+                    id="username"
+                    name="username"
+                    value="veilora_customer"
+                    readonly
+                >
+
+                <label for="email">Email Address:</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="example@email.com"
+                    required
+                >
+
+                <label for="password">Password:</label>
+                <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    placeholder="Enter password"
+                    required
+                    minlength="6"
+                >
+
+                <label for="birthdate">Date of Birth:</label>
+                <input
+                    type="date"
+                    id="birthdate"
+                    name="birthdate"
+                    required
+                >
+
+                <label for="website">Personal Website:</label>
+                <input
+                    type="url"
+                    id="website"
+                    name="website"
+                    placeholder="https://example.com"
+                >
+
+                <label for="favorite-color">Favourite Colour:</label>
+                <input
+                    type="color"
+                    id="favorite-color"
+                    name="favorite-color"
+                    value="#6F8FAF"
+                >
+
+                <label for="age">Age:</label>
+                <input
+                    type="number"
+                    id="age"
+                    name="age"
+                    min="16"
+                    max="100"
+                    required
+                >
+
+                <label for="preferred-time">Preferred Contact Time:</label>
+                <input
+                    type="time"
+                    id="preferred-time"
+                    name="preferred-time"
+                >
+
+                <label for="style-range">How interested are you in modest fashion?</label>
+                <input
+                    type="range"
+                    id="style-range"
+                    name="style-range"
+                    min="1"
+                    max="10"
+                    value="5"
+                >
+
+                <label for="message">Tell us about your favourite style:</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    minlength="10"
+                    maxlength="300"
+                    placeholder="Write your favourite abaya style..."
+                    required
+                ></textarea>
+
+                <label for="city">Select Your City:</label>
+
+                <select id="city" name="city" required>
+                    <option value="" selected>Select your city</option>
+                    <option value="islamabad">Islamabad</option>
+                    <option value="lahore">Lahore</option>
+                    <option value="karachi">Karachi</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="profile">Upload Profile Picture:</label>
+
+                <input
+                    type="file"
+                    id="profile"
+                    name="profile"
+                    accept="image/*"
+                >
+
+                <p class="form-title">Preferred Abaya Style:</p>
+
+                <input
+                    type="radio"
+                    id="daily"
+                    name="style"
+                    value="daily"
+                    checked
+                >
+
+                <label for="daily">Daily Wear</label>
+
+                <input
+                    type="radio"
+                    id="formal"
+                    name="style"
+                    value="formal"
+                >
+
+                <label for="formal">Formal Wear</label>
+
+                <input
+                    type="radio"
+                    id="party"
+                    name="style"
+                    value="party"
+                >
+
+                <label for="party">Party Wear</label>
+
+                <br><br>
+
+                <input
+                    type="checkbox"
+                    id="newsletter"
+                    name="newsletter"
+                    checked
+                >
+
+                <label for="newsletter">
+                    Subscribe to Veilora updates
+                </label>
+
+                <br><br>
+
+                <input
+                    type="text"
+                    value="Registration opens for Veilora customers."
+                    disabled
+                >
+
+                <button type="submit">Create Account</button>
+                <button type="reset">Clear Form</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Veilora. All Rights Reserved.</p>
+        <p>Gracefully Covered. Beautifully Styled.</p>
+    </footer>
+
+</body>
+
+</html>

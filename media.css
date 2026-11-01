@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F7F1E8;
+    color: #2F3E4E;
+}
+
+.navbar {
+    background-color: #6F8FAF;
+    padding: 20px 60px;
+    border-bottom: 4px solid #DCCDBE;
+}
+
+.logo h1 {
+    color: white;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.nav-links {
+    margin-top: 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 18px;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #DCCDBE;
+}
+
+.media-hero {
+    background-color: #DCCDBE;
+    padding: 60px;
+    text-align: center;
+    border-bottom: 3px solid #6F8FAF;
+}
+
+.media-hero h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.media-hero p {
+    font-size: 18px;
+}
+
+.fashion-image {
+    width: 80%;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border: 3px solid #DCCDBE;
+    text-align: center;
+    overflow: auto;
+}
+
+.fashion-image h2 {
+    margin-bottom: 20px;
+    color: #4F6D8A;
+}
+
+.fashion-image img {
+    width: 300px;
+    height: auto;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.fashion-image p {
+    padding: 40px;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.video-section,
+.audio-section {
+    width: 80%;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #DCCDBE;
+    text-align: center;
+    border: 2px solid #6F8FAF;
+}
+
+.video-section h2,
+.audio-section h2 {
+    margin-bottom: 20px;
+}
+
+video {
+    width: 70%;
+    max-width: 700px;
+    height: auto;
+}
+
+audio {
+    width: 70%;
+}
+
+.information-section {
+    width: 80%;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    overflow: auto;
+}
+
+.order-info {
+    width: 45%;
+    float: left;
+    padding: 20px;
+    border: 2px solid #DCCDBE;
+}
+
+.care-info {
+    width: 45%;
+    float: right;
+    padding: 20px;
+    border: 2px solid #DCCDBE;
+}
+
+.order-info h2,
+.care-info h2 {
+    color: #4F6D8A;
+    margin-bottom: 15px;
+}
+
+.order-info li,
+.care-info li {
+    margin: 10px 0;
+}
+
+.size-guide {
+    width: 80%;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #DCCDBE;
+    text-align: center;
+}
+
+.size-guide h2 {
+    margin-bottom: 25px;
+    color: #2F3E4E;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th,
+td {
+    border: 1px solid #6F8FAF;
+    padding: 15px;
+}
+
+th {
+    background-color: #6F8FAF;
+    color: white;
+}
+
+.footer {
+    background-color: #4F6D8A;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+}
